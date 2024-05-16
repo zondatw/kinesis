@@ -9,6 +9,8 @@ Built with `pymobiledevice3` and `leaflet`.
 
 ## Run
 
+### Using venv and requirments.txt
+
 It's recommended to use a [virtual environment](https://docs.python.org/3/tutorial/venv.html)
 
 ```shell
@@ -21,6 +23,24 @@ Install python dependencies
 ```shell
 pip3 install -r requirements.txt
 ```
+
+### Using pyenv and poetry
+
+change to python 3.11
+
+```shell
+pyenv install 3.11
+pyenv shell 3.11
+```
+
+Install python dependencies and enter the virtual environment
+
+```shell
+poetry install
+poetry shell
+```
+
+### Run script
 
 Have your device connected, **USB connection is required**
 
